@@ -8,7 +8,7 @@ namespace Bulky2.Models
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
-        public string Displayorder{ get; set; }
+        public int DisplayOrder{ get; set; }
     }
 }
 
